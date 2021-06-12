@@ -1,0 +1,1174 @@
+html{
+    height: 100vh;
+    overflow: hidden;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1f1f1f;
+    height: 100vh !important;
+    overflow: hidden;
+}
+.animation-wrapper{
+    height: 0px;
+}
+.container-fluid{
+    padding:0px !important;
+}
+.carousel-indicators{
+    bottom: 7px !important;
+}
+.carousel-indicators .active{
+    margin: 4px !important;
+}
+.carousel-indicators li{
+    margin: 5px !important;
+}
+.item{
+    height: 100vh;
+    width: 100vw;
+}
+.inner-div{
+    height: 83vh;
+    width: 92vw;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+    background-color: #101010;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    z-index: -10;
+}
+.numberline_1{
+    position: absolute;
+    margin-top: -10px;
+    left: 10%;
+    background:#ffffff;
+    height:70vh;
+    Width:1px;
+    -webkit-animation: expand 2s;
+}
+
+@-webkit-keyframes expand{
+    0%{height:0px}
+    100%{height:70vh}
+}
+.numberlines{
+    float: left;
+    background:#ffffff;
+    height:1px;
+    Width:39vw;
+    margin-top: 5%;
+    -webkit-animation: line 2s;
+}
+@-webkit-keyframes line{
+    0%{Width:0vw}
+    100%{Width:39vw}
+}
+.numberline_4{
+    float: left;
+    background:#ffffff;
+    height:1px;
+    Width:41vw;
+    margin-top: 5%;
+    -webkit-animation: line4 2s;
+}
+@-webkit-keyframes line4{
+    0%{Width:0vw}
+    100%{Width:41vw}
+}
+.one{
+    font-size: 14vw;
+    position: absolute;
+    font-weight: 900;
+    font-style: italic;
+    -webkit-text-stroke: 1px #A4A4A4;
+    color: transparent;
+    left: 10px;
+    bottom: 10px;
+    height: 270px;
+}
+.numbers{
+    float: right;
+    margin-top: -4.5%;
+    margin-right: 1vw;
+    font-size: 14vw;
+    font-weight: 900;
+    font-style: italic;
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+}
+.first_div::after{
+    position: absolute;
+    content: "DESIGN";
+    font-size: 30vw;
+    color: #131313;
+    font-weight: 900;
+    font-style: italic;
+    top: 50%;
+    left: -17%;
+    transform: translate(0%,-50%);
+
+}
+.col-2{
+    font-weight: bolder;
+    float: right;
+    margin-right: 7vw;
+    margin-top: 6vw;
+    letter-spacing: 1px;
+}
+.col-2 a{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.col-2 a:hover{
+    color: #ffffff;
+}
+#lines{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 15vw;
+    z-index: 10;
+}
+#typedtext{
+    position: absolute;
+    width: 50%;
+    color: white;
+    font-size: 3vw;
+    top: 22%;
+    right: 0%;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    z-index: 10;
+}
+.flower{
+    position: absolute;
+    top: 50% ;
+    left: 15%;
+    z-index: 10;
+    transform: translate(0%,-50%);
+    height: 21vw;
+}
+.top{
+    width: 100vw;
+    position: absolute;
+}
+.headings{
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 3%;
+    width: 37%;
+    font-size: 6vw;
+    letter-spacing: 3px;
+    z-index: 10;
+    font-style: italic;
+    color: #d4d4d4;
+    font-weight: 900;
+}
+.new_heading_div{
+    position: absolute; width: 100%; text-align: center; margin-top: 17vw;z-index: 1;
+}
+.about_heading{
+    color: white;
+    /* width: 10%; */
+    font-weight: bolder;
+    font-size: 1.2vw !important;
+}
+
+.description{
+    margin-top: -5%;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif !important;
+    /* letter-spacing: 1px; */
+}
+.first::after{
+    background: #4b2d11cc !important;
+}
+.second::after{
+    background: #341a57d0 !important;
+}
+.third::after{
+    background: #114b3ccc !important;
+}
+.fourth::after{
+    background: #164764d5 !important;
+}
+.three::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60%;
+    height: 60%;
+    background: linear-gradient(#4d1c6d,#12111200);
+    clip-path: circle(20% at 10% 75%);
+    z-index: -1;
+}
+.three::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#145A49,#00000000);
+    clip-path: circle(10% at 68% 100%);
+    z-index: -1;
+}
+.project_cards{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    justify-content: center;
+}
+.all_cards{
+    margin-left: 2.3vw;
+}
+.poster,
+.website,
+.graphics{
+  float: left;
+  height: 30vw;
+  width: 23vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  border-radius: 7px;
+  box-shadow: 20px 20px 50px ;
+  background-color: rgba(158, 158, 158, 0.1);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(107, 107, 107, 0.5);
+  border-left: 1px solid rgba(107, 107, 107, 0.5);
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  text-align: center;
+}
+.logo_poster,
+.logo_website,
+.logo_graphics{
+    margin-top: 1vw;
+    height: 65%;
+}
+.card_heading{
+    width: 90%;
+    text-align: left;
+    margin-left: 10%;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.25vw;
+    letter-spacing: 2px;
+}
+.gap{
+    height: 3vw;
+}
+.know_more{
+   box-shadow: -4px -4px 4px #262626, 4px 4px 4px #151515;
+   border-radius: 56px;
+   padding: 0.8vw;
+   padding-left: 25%;
+   padding-right: 25%;
+   margin-top: 12px;
+   font-weight: bolder;
+   font-style: italic;
+   color: white;
+   font-size: 1vw;
+   letter-spacing: 1px;
+}
+.know_more:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9vw;
+    box-shadow:inset -4px -4px 4px #262626,inset 4px 4px 4px #151515;
+}
+.heading_contact{
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 3%;
+    width: 34%;
+    font-size: 6vw;
+    letter-spacing: 3px;
+    z-index: 10;
+    font-style: italic;
+    color: #d4d4d4;
+    font-weight: 900; 
+}
+#canvas {
+    position: absolute;
+    z-index: -20;
+    top: -5vw;
+    left: -6vw;
+  }
+.leaves{
+    position: absolute;
+    width: 40vw;
+    /* z-index: -10; */
+}
+.text{
+    position: absolute;
+    top: 50% ;
+    left: 11%;
+    transform: translate(0%,-50%);
+    font-size: 3vw;
+    letter-spacing: 4px;
+    color: #C0C0C0;
+}
+.connect,
+.cool{
+    font-weight: 600;
+    color: white;
+}
+.circles{
+    position: absolute;
+    top: 50% ;
+    right: 8%;
+    z-index: 10;
+    transform: translate(0%,-50%);
+    height: 25vw;
+}
+.details{
+    width: 100%;
+    position: absolute;
+    bottom: 2.5vw;
+}
+.detail{
+    border-radius: 50px;
+    float: left;
+    height: auto;
+    width: 25%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.link{
+    width:100%;
+    height: 3vw;
+    box-shadow: -0.5vw -0.5vw 0.5vw #171717, 0.5vw 0.5vw 0.5vw #090909;
+    color: rgb(209, 209, 209);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.link:hover{
+    box-shadow: inset -0.5vw -0.5vw 0.5vw #171717,inset 0.5vw 0.5vw 0.5vw #090909;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9vw;
+}
+.link:link{
+    text-decoration: none;
+}
+.link:visited{
+    color: rgb(209, 209, 209);
+}
+.fas,
+.fab{
+    font-size: 1.3vw;
+    margin-right: 1vw;
+}
+/* --------------------------------------------------------------------TABLET MEDIA QUERY---------------------------------------- */
+@media (max-width:1050px){
+    .col-2{
+        margin-top: 13vw;
+    }
+    .links{
+        margin-right: 1vw;
+    }
+    .col-2 a{
+        font-size: 1.8vw;
+    }
+    .leaves{
+        width: 75vw;
+    }
+    #typedtext{
+        right: 10%;
+        font-size: 4.5vw;
+        width: 70%;
+    }
+    .numberline_1{
+        height:75vh;
+        -webkit-animation: expand 2s;
+    }
+    
+    @-webkit-keyframes expand{
+        0%{height:0px}
+        100%{height:75vh}
+    }
+    .top{
+        top: 5vw;
+    }
+    .headings{
+        width: 38%;
+    }
+    .poster,
+    .website,
+    .graphics{
+        width: 32vw;
+        height: 43vw;
+    }
+    .graphics{
+        margin-top: 4vw;
+        margin-left: 28vw;
+    }
+    .poster{
+        margin-left: 9vw;
+    }
+    .card_heading{
+        font-size: 2.25vw;
+    }
+    .know_more{
+        font-size: 1.5vw;
+    }
+    .know_more:hover{
+        font-size: 1.4vw;
+    }
+    .three::before{
+        clip-path: circle(16% at 76% 100%);
+        background: linear-gradient(#40e2bb,#00000000);
+    }
+    .text{
+        top: 29%;
+        left: 19%;
+        font-size: 5vw;
+    }
+    .flower{
+        top: 74%;
+        left: 19%;
+        height: 42vw;
+    }
+    .detail{
+        margin-bottom: 3vw;
+        width: 48%;
+        margin-left: 1.3vw;
+    }
+    .link{
+        font-size: 1.6vw;
+        height: 4vw;
+        box-shadow: -1vw -1vw 1vw #171717, 1vw 1vw 1vw #090909;
+    }
+    .link:hover{
+        font-size: 1.5vw;
+        box-shadow:inset -1vw -1vw 1vw #171717,inset 1vw 1vw 1vw #090909;
+    }
+    .new_heading_div{
+        margin-top: 26vw;
+    }
+    .description{
+        font-size: 18px;
+    }
+    .about_heading{
+        font-size: 2.7vw !important;
+    }
+    .circles{
+        z-index: -10;
+        top: 60%;
+        right: 14%;
+        height: 45vw;
+    }
+    .fas,
+    .fab{
+    font-size: 2vw;
+    }
+    .tl-content{
+        margin: 0 2.618em !important;
+    }
+
+}
+/* --------------------------------------------------------------------MOBILE MEDIA QUERY---------------------------------------- */
+@media (max-width:430px){
+    .carousel-indicators li{
+        width: 7px;
+        height: 6px;
+    }
+    .carousel-indicators .active{
+        width: 9px;
+        height: 9px;
+    }
+    .col-2{
+        margin-top: 17vw;
+    }
+    .col-2 a{
+        font-size: 3vw;
+    }
+    .leaves{
+        width: 78vw;
+    }
+    .one{
+        bottom: 25vw;
+        height: 10vh;
+    }
+    #typedtext{
+        right: 0%;
+        font-size: 5.5vw;
+        width: 86%;
+    }
+    .description{
+        font-size: 3vw;
+        margin-top: -20vw;
+    }
+    .top{
+        top: 7vw;
+    }
+    .numbers{
+        -webkit-text-stroke: 0.005em #ffffff;
+    }
+    .headings{
+        width: 54%;
+        font-size: 8vw;
+    }
+    .aboutme_heading{
+        width: 48% !important;
+    }
+    .heading_contact{
+        font-size: 8vw;
+    }
+    .new_heading_div{
+        margin-top: 54vw;
+    }
+    .about_heading{
+        font-size: 3vw !important;
+    }
+    .numberlines{
+        height: 0.01em;
+        Width:29vw;
+        margin-top: 5%;
+        -webkit-animation: line 2s;
+    }
+    @-webkit-keyframes line{
+        0%{Width:0vw}
+        100%{Width:29vw}
+    }
+    .three{
+        min-height: 83vh;
+        overflow-y: scroll;
+    }
+    .poster,
+    .website,
+    .graphics{
+        margin-left: 15vw;
+        height: 75vw;
+        width: 57vw;
+        margin-top: 9vw;
+    }
+    .poster{
+        margin-top: 120vw;
+    }
+    .website{
+        margin-left: 15vw;
+    }
+    .graphics{
+        margin-bottom: 9vw;
+    }
+    .card_heading{
+        font-size: 4.25vw;
+    }
+    .know_more{
+        font-size: 2.5vw;
+        padding-top: 1.8vw;
+        padding-bottom: 1.8vw;
+    }
+    .know_more:hover{
+        font-size: 2vw;
+    }
+    .gap{
+        height: 4vw;
+    }
+    .numberline_4{
+        margin-left: 15vw;
+        height: 0.01em;
+        Width:27vw;
+        margin-top: 5%;
+        -webkit-animation: line4 2s;
+    }
+    @-webkit-keyframes line4{
+        0%{Width:0vw}
+        100%{Width:27vw}
+    }
+    .text{
+        font-size: 6vw;
+        left: 16%;
+        top: 19%;
+        letter-spacing: 3px;
+    }
+    .flower{
+        top: 71%;
+        height: 49vw;
+        left: 18%;
+    }
+    #canvas{
+        opacity: 0;
+    }
+    .link{
+        font-size: 2.6vw;
+        height: 7vw;
+        box-shadow: -1vw -1vw 1vw #171717, 1vw 1vw 1vw #090909;
+    }
+    .link:hover{
+        font-size: 2.5vw;
+        box-shadow:inset -1vw -1vw 1vw #171717,inset 1vw 1vw 1vw #090909;
+    }
+    .circles{
+        top: 51%;
+        height: 55vw;
+        right: 4%;
+    }
+    .fas,
+    .fab{
+    font-size: 3vw;
+    }
+    .detail{
+        margin-bottom: 4vw;
+        width: 90%;
+        margin-left: 4.6%;
+    }
+    .tl-content{
+        margin: 0 2.618em !important;
+    }
+}
+/* --------------------------------------------------------------------IPHONE X MEDIA QUERY---------------------------------------- */
+@media only screen and (max-height: 815px) and (min-height: 790px){
+    .col-2{
+        margin-top: 21vw;
+    }
+    .top{
+        top: 10vw;
+    }
+    .poster{
+        margin-top: 93vw;
+    }
+}
+/* --------------------------------------------------------------------SURFACE DUO MEDIA QUERY---------------------------------------- */
+@media only screen and (max-width: 600px) and (min-width: 500px){
+    .numberline_1{
+        height:65vh;
+        -webkit-animation: expand 2s;
+    }
+    @-webkit-keyframes expand{
+        0%{height:0px}
+        100%{height:65vh}
+    }
+    .description{
+        font-size: 2.5vw;
+    }
+    .top{
+        top: 4vw;
+    }
+    #canvas{
+        opacity: 0.2;
+    }
+}
+/* --------------------------------------------------------------------SCROLL BAR---------------------------------------- */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #272727;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(73, 73, 73);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+/* --------------------------------------------------------------------INNER DIVS WORK---------------------------------------- */
+#websites,
+#graphics,
+#posters,
+#case_study{
+    min-height: 83vh;
+    overflow-y: scroll;
+}
+/* --------------------------------------------------------------------WEBSITES--------------------------------------- */
+
+.redirect{
+    float: right;
+    margin-top: 4.3vw;
+    margin-right: 3vw;
+}
+.redirect a{
+    font-size: 1vw;
+    font-weight: bolder;
+    color: #e6e6e6;
+    letter-spacing: 1px;
+    margin-right: 3vw;
+}
+.redirect a:hover{
+    color: white;
+    text-decoration: none;
+}
+.websites{
+    Width:31vw;
+    -webkit-animation: website 2s;
+}
+@-webkit-keyframes website{
+    0%{Width:0vw}
+    100%{Width:31vw}
+}
+.case_study{
+    Width:16vw;
+    -webkit-animation: case 2s;
+}
+@-webkit-keyframes case{
+    0%{Width:0vw}
+    100%{Width:16vw}
+}
+.poster_heading{
+    width: 32%;
+}
+.case_study_heading{
+    width: 50%;
+}
+.the_card{
+  float: left;
+  height: 20vw;
+  width: 23vw;
+  margin-top: 5vw;
+  margin-left: 5.5vw;
+  margin-right: 0vw;
+  border-radius: 7px;
+  box-shadow: 20px 20px 50px ;
+  background-color: rgba(158, 158, 158, 0.1);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(107, 107, 107, 0.5);
+  border-left: 1px solid rgba(107, 107, 107, 0.5);
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  text-align: center;
+  outline: none;
+}
+.the_image{
+    margin: 0.5vw;
+}
+.kobe,
+.asteria,
+.chamaleon,
+.tof,
+.pinklab,
+.portfolio{
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.kobe:hover,
+.asteria:hover,
+.chamaleon:hover,
+.tof:hover,
+.pinklab:hover,
+.portfolio:hover{
+    opacity: 1;
+}
+.portfolio_card{
+    margin-bottom: 5vw;
+}
+.about_button{
+    width: 78%;
+    float: left;
+    margin-top: 0.9vw;
+}
+.about{
+    background-color: transparent;
+    box-shadow: -4px -4px 4px #262626, 4px 4px 4px #151515;
+    border: none;
+    border-radius: 50px;
+    padding: 6.3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: #e6e6e6;
+    font-size: 0.8vw;
+    letter-spacing: 1px;
+    margin-left: 0.8vw;
+    font-weight: bolder;
+    outline: none;
+}
+.about:hover{
+    box-shadow:inset -4px -4px 4px #262626,inset 4px 4px 4px #151515;
+    font-size: 0.7vw;
+    color: white;
+}
+.number{
+    width: 20%;
+    text-align: center;
+    float: right;
+    color: transparent;
+    font-size: 3vw;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.kobe_number{
+    -webkit-text-stroke: 1px rgb(81, 27, 182);
+}
+.asteria_number{
+    -webkit-text-stroke: 1px rgb(70, 70, 70);
+}
+.chamaleon_number{
+    -webkit-text-stroke: 1px rgb(90, 95, 16);
+}
+.tof_number{
+    -webkit-text-stroke: 1px rgb(66, 66, 66);
+}
+.pinklab_number{
+    -webkit-text-stroke: 1px rgb(88, 61, 62);
+}
+.portfolio_number{
+    -webkit-text-stroke: 1px rgb(109, 109, 109);
+}
+.kobe_main,
+.asteria_main,
+.chamaleon_main,
+.tof_main,
+.pinklab_main,
+.portfolio_main{
+    width: 100%;
+    margin-bottom: 1vw;
+}
+
+.modal-backdrop.in{
+    z-index: -1;
+}
+.modal{
+    background-color: rgba(17, 17, 17, 0.623);
+}
+.modal-dialog{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-55%,-50%) !important;
+}
+.modal-content{
+    background-color: rgb(29, 29, 29);
+    width: 45vw;
+    border-radius: 0px;
+    height: auto;
+}
+.lines_bg{
+    position: absolute;
+    width: 100%;
+
+}
+.close{
+    position: absolute;
+    right: -3vw;
+    top: -3vw;
+    z-index: 100;
+    height: 5vw;
+    width: 5vw;
+    color: rgb(134, 134, 134);
+    font-weight: lighter;
+    font-size: 2vw;
+    opacity: 1 !important;
+    outline: none;
+}
+.modal-body{
+    color: rgb(175, 175, 175);
+    font-size: 1vw;
+}
+/* --------------------------------------------------------------------GRAPHICS--------------------------------------- */
+.birth_card{
+    margin-bottom: 5vw;
+}
+.rise_number{
+    -webkit-text-stroke: 1px rgb(41 88 85);
+}
+.music_number{
+    -webkit-text-stroke: 1px rgb(70 77 92);
+}
+.captain_number{
+    -webkit-text-stroke: 1px rgb(98 112 118);
+}
+.fall_number{
+    -webkit-text-stroke: 1px rgb(98 79 42);
+}
+.tuskers_number{
+    -webkit-text-stroke: 1px rgb(110 106 102);
+}
+.birth_number{
+    -webkit-text-stroke: 1px rgb(84 95 123);
+}
+.adventure_number{
+    -webkit-text-stroke: 1px rgb(68 85 121);
+}
+.neumorphism_number{
+    -webkit-text-stroke: 1px rgb(52 93 106s);
+}
+.rise,
+.music,
+.adventure,
+.birth,
+.fall,
+.tuskers,
+.captain,
+.neumorphism{
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.rise:hover,
+.music:hover,
+.adventure:hover,
+.birth:hover,
+.fall:hover,
+.tuskers:hover,
+.captain:hover,
+.neumorphism:hover{
+    opacity: 1;
+}
+.rise_main,
+.music_main,
+.captain_main,
+.fall_main,
+.tuskers_main,
+.adventure_main,
+.birth_main,
+.neumorphism_main{
+    width: 100%;
+}
+.captain_wick,
+.adventure_awaits,
+.birth_center{
+    width:35vw;
+}
+.fall_seven{
+    width: 30vw;
+}
+.tuskers_movers{
+    width: 40vw;
+}
+.neumorphism_center{
+    width: 60vw;
+}
+/* --------------------------------------------------------------------POSTERS--------------------------------------- */
+.posters{
+    margin-left: -5vw;
+    width: 36vw;
+    -webkit-animation: poster 2s;
+}
+@-webkit-keyframes poster{
+    0%{width:0px}
+    100%{width:36vw}
+}
+.nature,
+.baadshah,
+.treking,
+.idea,
+.technovation{
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.nature:hover,
+.baadshah:hover,
+.treking:hover,
+.idea:hover,
+.technovation:hover{
+    opacity: 1;
+}
+.baadshah_main,
+.nature_main,
+.treking_main,
+.idea_main,
+.technovation_main{
+    width: 100%;
+}
+.baadshah_poster{
+    width: 30vw;
+}
+.nature_poster,
+.treking_poster,
+.idea_poster,
+.technovation_poster{
+    width: 25vw;
+}
+
+.baadshah_number{
+    -webkit-text-stroke: 1px rgb(106 69 83);
+}
+.nature_number{
+    -webkit-text-stroke: 1px rgb(79 98 80);
+}
+.treking_number{
+    -webkit-text-stroke: 1px rgb(78 86 98);
+}
+.idea_number{
+    -webkit-text-stroke: 1px rgb(73 73 73);
+}
+.technovation_number{
+    -webkit-text-stroke: 1px rgb(73 73 73);
+}
+.technovation_card{
+    margin-bottom: 5vw;
+}
+/* ----------------------------------------------------------commom------------------------- */
+.modal-content{
+    margin-left: 2vw;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* --------------------------------------------------------------------------TABLET MEDIA QUERY second page------------------ */
+@media (max-width:1050px){
+    ::-webkit-scrollbar{
+        width: 5px;
+    }
+    .move_links{
+      font-size: 1.8vw !important;
+    }
+    .websites{
+        Width:18vw;
+        -webkit-animation: website 2s;
+    }
+    @-webkit-keyframes website{
+        0%{Width:0vw}
+        100%{Width:18vw}
+    }
+    .posters{
+        margin-left: -5vw;
+        width: 23vw;
+        -webkit-animation: poster 2s;
+    }
+    @-webkit-keyframes poster{
+        0%{width:0px}
+        100%{width:23vw}
+    }
+    .the_card{
+        height: 30vw;
+        width: 35vw;
+        margin-left: 7.5vw;
+    }
+    .about{
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+        font-size: 1.5vw;
+    }
+    .number{
+        font-size: 4.5vw;
+    }
+    .the_image{
+        margin-bottom: 1vw;
+    }
+    .modal-content{
+        width: 87vw;
+        margin-left: 3vw;
+    }
+    .modal-body{
+        font-size: 1.8vw;
+    }
+    .close{
+        font-size: 4vw;
+    }
+    .nature_poster,
+    .treking_poster,
+    .idea_poster,
+    .technovation_poster{
+        width: 78vw;
+    }
+}
+/* ----------------------------------------------------------MOBILE SECOND PAGE----------------------------- */
+@media (max-width:420px){
+    ::-webkit-scrollbar{
+        width: 5px;
+    }
+    .headings{
+        font-size: 7vw;
+        width: 45%;
+    }
+    .websites,
+    .posters{
+        display: none;
+    }
+    .move_links{
+        font-size: 2.3vw !important;
+    }
+    .modal-content{
+        margin-left: -2vw;
+        width: 93vw;
+    }
+    .the_card{
+        height: auto;
+        width: 76vw;
+        margin-top: 7vw;
+    }
+    .kobe, .asteria, .chamaleon, .tof, .pinklab, .portfolio,
+    .rise, .music, .adventure, .birth, .fall, .tuskers, .captain,
+    .nature, .baadshah, .treking, .idea, .technovation{
+        margin-top: 1.5vw;
+        margin-bottom: 1vw;
+    }
+    /* .nature_poster, .treking_poster, .idea_poster, .technovation_poster{
+        width: 93vw;
+    } */
+    .number{
+        font-size: 8.3vw;
+    }
+    .about{
+        font-size: 3.5vw;
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+    }
+    .modal-body{
+        padding: 10px;
+        font-size: 2.2vw;
+    }
+    .redirect{
+        margin-top: 2.3vw;
+        margin-right: 1vw;
+    }
+}
+/* ------------------------------------------------SURFACE DUO SECOND PAGE-------------------------- */
+@media only screen and (max-width: 600px) and (min-width: 500px){
+    ::-webkit-scrollbar{
+        width: 5px;
+    }
+    .the_card{
+        border-radius: 3px;
+    }
+    .rise, .music, .adventure, .birth, .fall, .tuskers, .captain,
+    .nature, .baadshah, .treking, .idea, .technovation,
+    .kobe, .asteria, .chamaleon, .tof, .pinklab, .portfolio{
+        border-radius: 2px;
+        margin-top: 1vw;
+    }
+    .modal-content{
+        margin-left: -3vw;
+    }
+    .redirect{
+        margin-top: 3.3vw;
+    }
+    .posters {
+        margin-left: -5vw;
+        width: 20vw;
+        -webkit-animation: poster 2s;
+    }
+    @-webkit-keyframes poster{
+        0%{width:0px}
+        100%{width:20vw}
+    }
+}
+/* --------------------------------------------------------------------------LARGE DEVICES second page------------------ */
+@media (min-width:1600px)
+{
+    .nature_poster,
+    .treking_poster,
+    .idea_poster,
+    .technovation_poster,
+    .baadshah_poster{
+        width: 30vw;
+    }
+    .tl-content{
+        margin: 0px 6.618em !important;
+    }
+    .description{
+        font-size: 20px;
+    }
+}
