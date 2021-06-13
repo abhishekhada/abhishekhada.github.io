@@ -385,3 +385,33 @@ window.onresize = function() {
         paintCanvas();
         repositionParticles();
     }
+
+
+function phoneFunction() {
+    var copyText = document.getElementById("phone");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText.value);
+  }
+  function mailFunction() {
+    var copyText = document.getElementById("mail");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText.value);
+  }
+  function whatsappFunction() {
+    var copyText = document.getElementById("whatsapp");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText.value);
+  }        
+  function instaFunction() {
+    var copyText = document.getElementById("instagram");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText.value);
+  }  

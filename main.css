@@ -366,9 +366,25 @@ body{
     color: rgb(209, 209, 209);
 }
 .fas,
-.fab{
+.fab,
+.far{
     font-size: 1.3vw;
-    margin-right: 1vw;
+    margin-right: 0.5vw;
+}
+.fa-phone-alt{
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgb(209,209,209);
+    font-size: 1.1vw;
+}
+#phone,
+#mail,
+#whatsapp,
+#instagram{
+    display: none;
+}
+.copy{
+    background: none;
+    border: none;
 }
 /* --------------------------------------------------------------------TABLET MEDIA QUERY---------------------------------------- */
 @media (max-width:1050px){
@@ -470,7 +486,8 @@ body{
         height: 45vw;
     }
     .fas,
-    .fab{
+    .fab,
+    .far{
     font-size: 2vw;
     }
     .tl-content{
@@ -617,7 +634,8 @@ body{
         right: 4%;
     }
     .fas,
-    .fab{
+    .fab,
+    .far{
     font-size: 3vw;
     }
     .detail{
