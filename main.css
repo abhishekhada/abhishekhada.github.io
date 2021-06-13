@@ -771,7 +771,8 @@ body{
 .chamaleon,
 .tof,
 .pinklab,
-.portfolio{
+.portfolio,
+.nest{
     width: 100%;
     opacity: 0.5;
     border-radius: 5px;
@@ -781,10 +782,11 @@ body{
 .chamaleon:hover,
 .tof:hover,
 .pinklab:hover,
-.portfolio:hover{
+.portfolio:hover,
+.nest:hover{
     opacity: 1;
 }
-.portfolio_card{
+.nest_card{
     margin-bottom: 5vw;
 }
 .about_button{
@@ -839,12 +841,16 @@ body{
 .portfolio_number{
     -webkit-text-stroke: 1px rgb(109, 109, 109);
 }
+.nest_number{
+    -webkit-text-stroke: 1px rgb(80, 80, 80);
+}
 .kobe_main,
 .asteria_main,
 .chamaleon_main,
 .tof_main,
 .pinklab_main,
-.portfolio_main{
+.portfolio_main,
+.nest_main{
     width: 100%;
     margin-bottom: 1vw;
 }
