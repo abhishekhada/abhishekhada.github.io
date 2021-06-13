@@ -848,7 +848,9 @@ body{
     width: 100%;
     margin-bottom: 1vw;
 }
-
+.tof_center{
+    width: 55vw !important;
+}
 .modal-backdrop.in{
     z-index: -1;
 }
