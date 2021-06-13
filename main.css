@@ -372,9 +372,7 @@ body{
     margin-right: 0.5vw;
 }
 .fa-phone-alt{
-    color: transparent;
-    -webkit-text-stroke: 1.5px rgb(209,209,209);
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 #phone,
 #mail,
