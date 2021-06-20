@@ -723,13 +723,25 @@ body{
     color: white;
     text-decoration: none;
 }
+.sites{
+    width: 48%;
+}
+
 .websites{
-    Width:31vw;
+    Width:21vw;
     -webkit-animation: website 2s;
 }
 @-webkit-keyframes website{
     0%{Width:0vw}
-    100%{Width:31vw}
+    100%{Width:21vw}
+}
+.graphic{
+    Width:32vw;
+    -webkit-animation:graphic 2s;
+}
+@-webkit-keyframes graphic{
+    0%{Width:0vw}
+    100%{Width:32vw}
 }
 .case_study{
     Width:16vw;
@@ -772,7 +784,8 @@ body{
 .tof,
 .pinklab,
 .portfolio,
-.nest{
+.nest,
+.lamp{
     width: 100%;
     opacity: 0.5;
     border-radius: 5px;
@@ -783,10 +796,11 @@ body{
 .tof:hover,
 .pinklab:hover,
 .portfolio:hover,
-.nest:hover{
+.nest:hover,
+.lamp:hover{
     opacity: 1;
 }
-.nest_card{
+.lamp_card{
     margin-bottom: 5vw;
 }
 .about_button{
@@ -844,13 +858,17 @@ body{
 .nest_number{
     -webkit-text-stroke: 1px rgb(80, 80, 80);
 }
+.lamp_number{
+    -webkit-text-stroke: 1px rgb(116, 121, 124);
+}
 .kobe_main,
 .asteria_main,
 .chamaleon_main,
 .tof_main,
 .pinklab_main,
 .portfolio_main,
-.nest_main{
+.nest_main,
+.lamp_main{
     width: 100%;
     margin-bottom: 1vw;
 }
@@ -1048,11 +1066,22 @@ body{
     .move_links{
       font-size: 1.8vw !important;
     }
+    .sites{
+        width: 49%;
+    }
     .websites{
-        Width:18vw;
+        Width:8vw;
         -webkit-animation: website 2s;
     }
     @-webkit-keyframes website{
+        0%{Width:0vw}
+        100%{Width:8vw}
+    }
+    .graphic{
+        Width:18vw;
+        -webkit-animation: graphic 2s;
+    }
+    @-webkit-keyframes graphic{
         0%{Width:0vw}
         100%{Width:18vw}
     }
